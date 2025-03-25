@@ -1,0 +1,26 @@
+{
+  "name": "week3",
+  "version": "1.0.0",
+  "description": "task3.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saikarthik787202/SIT725.git"
+  },
+  "keywords": [
+    "sit725",
+    "task3.2"
+  ],
+  "author": "karthik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saikarthik787202/SIT725/issues"
+  },
+  "homepage": "https://github.com/Saikarthik787202/SIT725#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
