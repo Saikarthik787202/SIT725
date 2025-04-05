@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>S225173844</title>
+    <meta name="description" content="SIT 725 Prac 3">
+    <meta name="author" content="SitePoint">
+    <meta property="og:title" content="SIT 725 task">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Basic template for SIT 725 Prac 3">
+    
+
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">
+                <img class="user-image-size" src="images/user-image.png" alt="User image" />
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/murarisaikarthik">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main-body">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <h1 id="heading">Welcome to SIT 725 </h1>
+                    <p class="flow-text">This is a demo application that tries to use a few components from materialize and through this practical we try to have some fun with Materialize and its
+                    components</p>
+                </div>
+                <div class="col s12 center-align">
+                    <img class="materialboxed materialboxed-image" src="images/livedemo.jpg">
+                </div>
+                <div class="col s12 center-align">
+                    <a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1"><i class="material-icons left">auto_fix_high</i>Click Me</a>
+                </div>
+            </div>
+            
+            <!-- Cards Sections -->
+            <div class="row" id="card-section">
+               
+                <div class="col s4 center-align">
+                    <div class="card medium">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/dice2.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Dice<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#">About Me</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Dice<i class="material-icons right">close</i></span>
+                            <p class="card-text">Hello There! I just wanted to say HI to you guys. See ya!</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="col s4 center-align">
+                    <div class="card medium">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/linkedin.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Linkedin<i class="material-icons right">more_vert</i></span>
+                            <p><a href="https://www.linkedin.com/in/murarisaikarthik">Visit Profile</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Karthik<i class="material-icons right">close</i></span>
+                            <p class="card-text">Visit My Linkedin from here by clicking visit profile!</p>
+                        </div>
+                    </div>
+                </div>
+                
+              
+                <div class="col s4 center-align">
+                    <div class="card medium">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/github.jpg">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Github<i class="material-icons right">more_vert</i></span>
+                            <p><a href="https://github.com/saikarthik488">Github</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Github<i class="material-icons right">close</i></span>
+                            <p class="card-text">Visit My Github from here by clicking Github. See ya!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div id="modal1" class="modal modal-fixed-footer">
+            <div class="row modal-content">
+                <form class="col s12" id="form">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="First Name" id="first_name" type="text" class="validate" autocomplete="given-name">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate" autocomplete="family-name">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate valid" autocomplete="current-password">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate" autocomplete="email">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 center-align">
+                            <a class="waves-effect waves-light btn" id="formSubmit">Submit</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+       
+        document.addEventListener('DOMContentLoaded', function() {
+            var modals = document.querySelectorAll('.modal');
+            M.Modal.init(modals);
+
+            var materialboxed = document.querySelectorAll('.materialboxed');
+            M.Materialbox.init(materialboxed);
+        });
+
+        
+        document.getElementById("formSubmit").addEventListener("click", function() {
+            // Get form values
+            const firstName = document.getElementById("first_name").value;
+            const lastName = document.getElementById("last_name").value;
+            const password = document.getElementById("password").value;
+            const email = document.getElementById("email").value;
+
+            
+            console.log("First Name: " + firstName);
+            console.log("Last Name: " + lastName);
+            console.log("Password: " + password);
+            console.log("Email: " + email);
+        });
+    </script>
+</body>
+</html>
