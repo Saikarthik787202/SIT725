@@ -1,0 +1,14 @@
+{
+  "name": "socket-demo",
+  "version": "1.0.0",
+  "description": "Socket.io demo",
+  "main": "controllers/server.js",
+  "scripts": {
+    "start": "node controllers/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket-demo": "file:",
+    "socket.io": "^4.0.0"
+  }
+}
